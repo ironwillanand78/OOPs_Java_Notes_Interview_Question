@@ -1,0 +1,21 @@
+<!-- What is a Constructors -->
+Constructors are basically a block of having same name as that of a class . 
+Constructors does not return anything in any case. no even in void 
+The access modifiers that can use a Constructor are public , private , default and protected.
+When ever we create an object a Constructor gets executed automatically .
+
+for example :-  Scanner sc = new Scanner(); the Scanner() is where it gets executed automatically while we are creating a Scanner class object with name sc.
+
+<!-- Use of Constructors -->
+ Constructors are used to intialise an object . they are not used to creata an object that is done by new keyword in java.
+
+ <!-- Type of Constructors -->
+  Constructors are of three type in java.
+
+  1: Default Constructor (No argument constructor) :- This Constructor is made by the compiler (asked in interview) at the time of compilation of java code not made by JVM. This is made when an object is being intialise without making a constructor and since compiler can not pass arguments on its own thats why it is called "no argumnet constructor". 
+
+  2: No Arguments Constructor :- This constructor is made by the programmer during programming and no arguments are passed in it . So the basic difference in this and "Default Constructor" is that this is made by the programmer and no arguments are passed and Default Constructors is made by the compiler.
+
+  3: Parametrized Constructor :- This constructor is also made by the programmer but this has parameters that one need to pass during the intialisation of the object or else the program will give error.
+
+  
