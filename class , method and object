@@ -1,6 +1,6 @@
 <!-- What is OOPs -->
-OOPs basicallly means Object - Oriented - Programming - System/Strucute. OOPs is
-basically a programming paradign/methodology.
+OOPs basicallly means Object - Oriented - Programming - System/Strucute.
+ OOPs is basically a programming paradign/methodology.
 
 <!-- Language that follow OOPs  -->
 Smalltalk is the first language that purely uses OOPs then there are some other
@@ -9,8 +9,11 @@ languages as well that uses OOPs are Java , C# , C++ , Python etc.....
 <!-- Programming paradign  -->
 programming paradign basically means the method / appraoch to solve a problem by
 using some programming language and tools that can be used to follow an
-appraoch. There are basically 5 ways of programming paradign 1:- Object Oriented
-paradign 2:- Procedural paradign 3:- Functional paradign 4:- Logical paradign
+appraoch. There are basically 5 ways of programming paradign 
+1:- Object Oriented paradign 
+2:- Procedural paradign
+3:- Functional paradign 
+4:- Logical paradign
 5:- Structural
 
 <!-- 6 main pillers of OOPs are -->
@@ -25,15 +28,20 @@ etc... and what they do in general they used fuel to travell so from above
 example we can say that Vechile is the class and bikes , cars are the objects...
 
 <!-- Class  -->
-1:- Class is like a collection of objects. 2:- Class is not a real world entity
-it is only a blueprint or template. 3:- Class does not occupy any space in the
-memory.
+1:- Class is like a collection of objects.
+ 2:- Class is not a real world entity it is only a blueprint or template. 
+3:- Class does not occupy any space in the memory.
 
 <!-- Syntax of class  -->
 
 access modifier class ClassName{
 <!-- this is the body  -->
-it can have -methods -constructors -fields and variables -blocks -nested classes
+it can have 
+-methods 
+-constructors 
+-fields and variables 
+-blocks 
+-nested classes
 }
 
 <!-- Methods  -->
@@ -41,7 +49,8 @@ A set of codes/rules that performs a particular task.
 
 <!-- Advantages of Methods -->
 
-1:- Code reusability 2:- Code opetimization
+1:- Code reusability 
+2:- Code opetimization
 
 <!-- Syntax of Method -->
 
@@ -52,44 +61,46 @@ acess modifier returnType methodName(list of parameters){
 
 <!-- All about Objects -->
 
-a : -
 <!--What is an Object  -->
-1- Object is an instance of class / visual representation of a class. 2- Object
-is an real world entity and it occupies space in the memory.
+1- Object is an instance of class / visual representation of a class.
+2- Object is an real world entity and it occupies space in the memory.
 
 <!-- Object consists  -->
-1- Identity : Every object has a unique Name to it. 2- State/Attributes : Every
-object has its unique attributes. 3- Behaviour : Every object has its behaviour
-which is also known as methods.
+1- Identity : Every object has a unique Name to it. 
+2- State/Attributes : Every object has its unique attributes. 
+3- Behaviour : Every object has its behaviour which is also known as methods.
 
 <!-- Mehtods to create an Object -->
-There are basically 5 ways to create an object 1- using New keyword 2- using New
-instance() method 3- Clone() method 4- Deserialization 5- Factory methods
+There are basically 5 ways to create an object 
+1- using New keyword 
+2- using New instance() method 
+3- Clone() method 
+4- Deserialization 
+5- Factory methods
 
 <!-- Creating an Object using New keyword -->
 This method follows 3 basic rule
 <!--  -->
 1- Decleration : In this we declare the name of the variable with the class name
 ahead to it.
-<!--  -->
 for ex :- Scanner sc;
-<!--  -->
+
 in this example Scanner is a class and sc in the variable name.
-<!--  -->
+
 2- Instantiation & Initilization : In this method we use the new keyword
 followed by class name (constructors). for ex : sc = new Scanner();
-<!--  -->
+
 After combining all the above lines of code we get
-<!--  -->
+
 Scanner sc = new Scanner();
-<!--  -->
+
 In above line we have Scanner is the class , sc is the variable name , new is
 the keyword to create an object and then we have Scanner() constructor
 
-<!--  -->
+
 To call any method inside the object we use (.) operation
 for example we know to get input from the use in Scanner class we use 
-<!--  -->
+
 Scanner sc = new Scanner(System.in);
-<!--  -->
-here .in is the method we call from scanner class to get the user input
+
+here (.in) is the method we call from scanner class to get the user input

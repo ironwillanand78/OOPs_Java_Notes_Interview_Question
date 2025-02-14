@@ -1,0 +1,52 @@
+<!-- All about Inheritence -->
+ Inheritence :- This basically means inheriting the properties of the parent class(super-class) by a child class(sub-class).
+ This is used by writing the word "extends"
+
+ for example :-  
+ In this java program we can see There are two classes A , B and we want the object of class B to have access to the methods of class A now that can be done by inheritence. Which can be used by the word extends.
+
+ class A{
+        void showA(){
+            System.out.println("this is a class A method");
+        }
+        public static void main(String[]args){
+
+
+            B objB = new B();  [This line will create an obj of class B ..... with constructor as B() ] 
+
+
+       //     objB.showA();  [Initially this line will give a error which will be can not find showA() ... this will be because the objB is an object of class B and is trying to call the method of class A. to solve this error we will use the word extends in class B. ]
+       // now calling the same 
+              objB.showA(); 
+          again this time it will print "this is a class A method" on the output.
+
+        }
+ }
+ class B extends A{
+    void showB(){
+        System.out.println("this is a class B method");
+    }
+ }
+
+ Now as we know we need only one main method to compile the program in java language.
+
+
+ <!-- Advantages of Inheritence -->
+  1: Code reusability.
+  2: Avoid extra memory consumption.
+
+  <!-- Disadvantages of Inheritence -->
+   The major disadvantage of inheritence is one ever the code in changed in the parent class even if the change is not required in the children class the change will be made automatically as of the inheriting property.
+
+
+   <!-- Types of Inheritence in General -->
+    In general there are 5 types of Inheritence.
+    1: Single Level Inheritence. (Single parent child method passing)
+    2: Multi Level Inheritence.  (Like grandparent - parent - child type method passing )
+    3: Hierarchical Inheritence. (Single parent - multiple child type method passing)
+    4: Multiple Inheritence.     (Multiple Parent - single child type method passing)
+    5: Hybrid Inheritence.       (Combination of any of the other Inheritence)
+
+    <!-- Types of inheritence in Java  -->
+     Java only supports 3 types of inheritence.
+     Single level , Multi level and hierarchical Inheritene.
